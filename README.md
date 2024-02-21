@@ -1,3 +1,4 @@
+![delete img](https://github.com/bdeekshith066/Made-for-India-Bot-/assets/130782878/c8ff414b-986b-4e0c-b43b-68ff28cdf7d2)
 # Made for India Bot 🇮🇳🤖
 
 **Made for India Bot** is your ultimate multilingual assistant designed specifically for the diverse linguistic landscape of India. Whether you're conversing in Hindi, Bengali, Tamil, or any other Indian language, **Made for India Bot** is your go-to companion!
