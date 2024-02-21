@@ -8,7 +8,7 @@ import openai
 from googletrans import Translator
 
 # Set your OpenAI API key
-openai.api_key = '--api-key--'  # Insert your OpenAI API key here
+openai.api_key = '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'  # Insert your OpenAI API key here
 
 # Function to translate text to English
 def translate_to_english(text):
@@ -61,24 +61,46 @@ supported_languages = {
     'ur': 'Urdu',
     'pa': 'Punjabi',
     'ml': 'Malayalam',
-    'or': 'Odia'
+    'or': 'Odia',
+    'kn': 'Kannada',  # Kannada language
+    'as': 'Assamese',  # Assamese language
+    'kok': 'Konkani',  # Konkani language
+    'ne': 'Nepali',  # Nepali language
+    'sd': 'Sindhi',  # Sindhi language
+    'mni': 'Manipuri',  # Manipuri language
+    'doi': 'Dogri',  # Dogri language
+    'mai': 'Maithili',  # Maithili language
+    'bho': 'Bhojpuri',  # Bhojpuri language
+    'sat': 'Santali',  # Santali language
+    'ks': 'Kashmiri',  # Kashmiri language
+    'chr': 'Chhattisgarhi',  # Chhattisgarhi language
+    'new': 'Newari',  # Newari language
+    'awa': 'Awadhi',  # Awadhi language
 }
 
-# Function to ask for language selection
-def ask_for_language_choice(prompt):
-    print(prompt)
-    lang_code = input("Enter the language code (e.g., en for English, hi for Hindi): ").lower()
-    while lang_code not in supported_languages:
-        print("Invalid language code. Please choose from the following:")
-        for code, language in supported_languages.items():
-            print(f"{code}: {language}")
-        lang_code = input("Enter the language code: ").lower()
-    return lang_code
+# Display supported languages
+print("Supported languages:")
+for code, language in supported_languages.items():
+    print(f"{code}: {language}")
+
+# Ask for input language selection
+input_lang = input("Choose your input language: ").lower()
+while input_lang not in supported_languages:
+    print("Invalid language code. Please choose from the following:")
+    for code, language in supported_languages.items():
+        print(f"{code}: {language}")
+    input_lang = input("Choose your input language: ").lower()
+
+# Ask for output language selection
+output_lang = input("Choose your output language: ").lower()
+while output_lang not in supported_languages:
+    print("Invalid language code. Please choose from the following:")
+    for code, language in supported_languages.items():
+        print(f"{code}: {language}")
+    output_lang = input("Choose your output language: ").lower()
 
 # Main loop
 while True:
-    input_lang = ask_for_language_choice("Choose your input language:")
-    output_lang = ask_for_language_choice("Choose your output language:")
     user_input = input("How can I assist you today? ")
 
     chatgpt_response = generate_response(user_input, input_lang, output_lang)
