@@ -1,46 +1,64 @@
+# Made for India Bot 🇮🇳🤖
 
-# Multilingual Assistant
-
-Multilingual Assistant is an interactive chatbot capable of communicating in multiple languages. It utilizes OpenAI's GPT-3.5 model for generating responses and Google Translate for language translation. This bot supports ten languages, including English and nine major languages spoken in India.
+**Made for India Bot** is your ultimate multilingual assistant designed specifically for the diverse linguistic landscape of India. Whether you're conversing in Hindi, Bengali, Tamil, or any other Indian language, **Made for India Bot** is your go-to companion!
 
 ## Features
-
-- **Multilingual Support**: Communicate with the chatbot in English or any of the supported Indian languages, including Hindi, Tamil, Telugu, Marathi, Bengali, Gujarati, Urdu, Punjabi, Malayalam, and Odia.
-- **Interactive Interface**: User-friendly interface for inputting queries and selecting desired languages.
-- **Text and Speech Output**: Choose between receiving responses as text or converting them to speech for enhanced accessibility.
-- **Language Code Reference**: Display of supported languages and their corresponding language codes for easy reference during language selection.
+- **Multilingual Support**: Seamlessly communicate in multiple Indian languages.
+- **Text and Speech Output**: Receive responses in text or speech format, tailored to your preferences.
+- **User-Friendly Interface**: An intuitive and easy-to-use interface for effortless interaction.
+- **Powered by Advanced AI**: Leveraging cutting-edge AI models to provide accurate and helpful responses.
+- **Proudly Made for India**: Crafted with love for the people and languages of India.
 
 ## Installation
+1. **Install Dependencies**:
+    - OpenAI: `!pip install openai==0.27.0`
+    - gTTS: `!pip install gtts`
+    - Googletrans: `!pip install googletrans==4.0.0-rc1`
+    - SpeechRecognition: `!pip install SpeechRecognition`
+    
+2. **Install Additional Package** (if using speech recognition):
+    - Python3-pyaudio: `!apt-get install -y python3-pyaudio`
 
-1. Clone the repository:
-   ```
-   git clone https://github.com/your_username/multilingual-assistant.git
-   ```
 
-2. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
-
-3. Set up OpenAI API key:
-   - Sign up for an account at [OpenAI](https://openai.com).
-   - Obtain an API key.
-   - Replace `'--api-key--'` in `main.py` with your API key.
 
 ## Usage
+- Choose your input and output languages from the provided list.
+- Enter your query or request in the input prompt.
+- Receive responses either as text or speech based on your preference.
+- Continue interacting or exit when done.
 
-1. Run the script:
-   ```
-   python main.py
-   ```
+## Supported Languages
+- English
+- Hindi
+- Bengali
+- Tamil
+- Telugu
+- Marathi
+- Gujarati
+- Urdu
+- Punjabi
+- Malayalam
+- Odia
+- Kannada
+- Assamese
+- Konkani
+- Nepali
+- Sindhi
+- Manipuri
+- Dogri
+- Maithili
+- Bhojpuri
+- Santali
+- Kashmiri
+- Chhattisgarhi
+- Newari
+- Awadhi
 
-2. Follow the prompts to select input and output languages and interact with the chatbot.
+## Author
+- Deekshith B
 
-## Contributing
-
-Contributions are welcome! Please feel free to open issues for feature requests, bug reports, or general feedback. Pull requests are also encouraged.
+## Contribution
+Contributions are welcome! If you'd like to add new features, improve existing ones, or fix any issues, feel free to open a pull request.
 
 ## License
-
 This project is licensed under the [MIT License](LICENSE).
-```
