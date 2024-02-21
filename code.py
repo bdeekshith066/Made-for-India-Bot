@@ -62,20 +62,20 @@ supported_languages = {
     'pa': 'Punjabi',
     'ml': 'Malayalam',
     'or': 'Odia',
-    'kn': 'Kannada',  # Kannada language
-    'as': 'Assamese',  # Assamese language
-    'kok': 'Konkani',  # Konkani language
-    'ne': 'Nepali',  # Nepali language
-    'sd': 'Sindhi',  # Sindhi language
-    'mni': 'Manipuri',  # Manipuri language
-    'doi': 'Dogri',  # Dogri language
-    'mai': 'Maithili',  # Maithili language
-    'bho': 'Bhojpuri',  # Bhojpuri language
-    'sat': 'Santali',  # Santali language
-    'ks': 'Kashmiri',  # Kashmiri language
-    'chr': 'Chhattisgarhi',  # Chhattisgarhi language
-    'new': 'Newari',  # Newari language
-    'awa': 'Awadhi',  # Awadhi language
+    'kn': 'Kannada',  
+    'as': 'Assamese',  
+    'kok': 'Konkani',  
+    'ne': 'Nepali',  
+    'sd': 'Sindhi',  
+    'mni': 'Manipuri',  
+    'doi': 'Dogri', 
+    'mai': 'Maithili', 
+    'bho': 'Bhojpuri', 
+    'sat': 'Santali', 
+    'ks': 'Kashmiri',  
+    'chr': 'Chhattisgarhi',  
+    'new': 'Newari',  
+    'awa': 'Awadhi', 
 }
 
 # Display supported languages
