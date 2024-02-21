@@ -8,7 +8,7 @@ import openai
 from googletrans import Translator
 
 # Set your OpenAI API key
-openai.api_key = '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'  # Insert your OpenAI API key here
+openai.api_key = 'your openai api key'  # Insert your OpenAI API key here
 
 # Function to translate text to English
 def translate_to_english(text):
