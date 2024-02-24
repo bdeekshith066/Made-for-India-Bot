@@ -55,7 +55,7 @@
 - Awadhi
 
 ## Author
-- [Deekshith B](https://github.com/bdeekshith066)
+- [Deekshith B](https://www.linkedin.com/in/deekshith2912/)
 
 ## Contribution
 Contributions are welcome! If you'd like to add new features, improve existing ones, or fix any issues, feel free to open a pull request.
